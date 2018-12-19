@@ -24,4 +24,10 @@ public class HelloController {
 
         return new FeedParser("http://www.vogella.com/article.rss").readFeed();
     }
+
+    @GetMapping(path = "/rss/radiot")
+    public Feed rssRadiot() throws JsonProcessingException {
+
+        return new FeedParser("http://feeds.rucast.net/radio-t").readFeed();
+    }
 }
