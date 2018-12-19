@@ -3,6 +3,10 @@ package com.mogikanensoftware.rss2twitter.service;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author mogikanen9
+ */
+
 @SpringBootApplication
 public class ServiceApplication {
 
