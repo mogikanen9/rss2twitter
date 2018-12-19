@@ -30,4 +30,10 @@ public class HelloController {
 
         return new FeedParser("http://feeds.rucast.net/radio-t").readFeed();
     }
+
+    @GetMapping(path = "/rss/jcg")
+    public Feed rssJCG() throws JsonProcessingException {
+
+        return new FeedParser("http://feeds.feedburner.com/JavaCodeGeeks").readFeed();
+    }
 }
