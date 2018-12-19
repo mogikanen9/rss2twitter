@@ -60,7 +60,7 @@ public class FeedParser {
             InputStream in = read();
             XMLEventReader eventReader = inputFactory.createXMLEventReader(in);
             
-            List<FeedMessage> entries = new ArrayList();
+            List<FeedMessage> entries = new ArrayList<>();
 
             // read the XML document
             while (eventReader.hasNext()) {
@@ -139,5 +139,4 @@ public class FeedParser {
             throw new RuntimeException(e);
         }
     }
-}
 }

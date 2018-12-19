@@ -4,6 +4,7 @@ import org.hamcrest.CoreMatchers;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
+import org.junit.Test;
 
 /**
  * @author mogikanen9
@@ -24,6 +25,7 @@ public class FeedParserTest{
         sut = null;
     }
 
+    @Test
     public void testRead(){
         Feed feed = sut.readFeed();
         Assert.assertNotNull(feed);
