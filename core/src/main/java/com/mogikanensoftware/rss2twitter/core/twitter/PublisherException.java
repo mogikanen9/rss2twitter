@@ -1,4 +1,4 @@
-package com.mogikanensoftware.rss2twitter.service.twitter;
+package com.mogikanensoftware.rss2twitter.core.twitter;
 
 public class PublisherException extends Exception {
 

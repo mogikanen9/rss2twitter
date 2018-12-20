@@ -11,13 +11,19 @@
 	<artifactId>service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>service</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Rss2Twitter Spring Boot Service</description>
 	<properties>
 		<java.version>1.8</java.version>
 		<junit.version>5.3.2</junit.version>
-		<sonar.projectName>rss2twitter-service</sonar.projectName>
+		<sonar.projectKey>rss2twitter</sonar.projectKey>
 	</properties>
 	<dependencies>
+
+		<dependency>
+			<groupId>com.mogikanensoftware.rss2twitter</groupId>
+			<artifactId>core</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
@@ -31,16 +37,7 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>org.twitter4j</groupId>
-			<artifactId>twitter4j-core</artifactId>
-			<version>4.0.7</version>
-		</dependency>
+		
 		<!--Testing-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -53,7 +50,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<!-- Provide JUnit 5 API -->
+			<!-- Provide JUnit 5 API -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>

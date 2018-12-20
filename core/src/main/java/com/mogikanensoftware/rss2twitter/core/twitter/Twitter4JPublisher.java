@@ -1,7 +1,7 @@
-package com.mogikanensoftware.rss2twitter.service.twitter;
+package com.mogikanensoftware.rss2twitter.core.twitter;
 
-import com.mogikanensoftware.rss2twitter.service.rss.FeedMessage;
-import com.mogikanensoftware.rss2twitter.service.rss.FeedParser;
+import com.mogikanensoftware.rss2twitter.core.rss.FeedMessage;
+import com.mogikanensoftware.rss2twitter.core.rss.FeedParser;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

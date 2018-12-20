@@ -1,8 +1,8 @@
 package com.mogikanensoftware.rss2twitter.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.mogikanensoftware.rss2twitter.service.rss.Feed;
-import com.mogikanensoftware.rss2twitter.service.rss.FeedParser;
+import com.mogikanensoftware.rss2twitter.core.rss.Feed;
+import com.mogikanensoftware.rss2twitter.core.rss.FeedParser;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
