@@ -24,8 +24,9 @@ hs_err_pid*
 
 #misc
 sonar.bat
-/target
-.project
-.settings
-.vscode
-core/target
+**/target
+**/.project
+**/.settings
+**/.vscode
+**/.classpath
+**/.factorypath

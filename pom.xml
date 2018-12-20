@@ -8,6 +8,7 @@
 	<url>https://github.com/mogikanen9/xml-cleanup-maven-plugin/</url>
 	<modules>
 		<module>core</module>
+		<module>app</module>			
 		<module>service</module>
 	</modules>
 	<properties>
