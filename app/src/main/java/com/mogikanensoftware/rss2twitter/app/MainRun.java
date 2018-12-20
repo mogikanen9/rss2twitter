@@ -9,7 +9,7 @@ public class MainRun {
         public static void main(String[] args) throws Exception {
 
                 if (args.length < 5) {
-                        throw new RuntimeException(String.format("Please, provdie all 5 params"));
+                        throw new RuntimeException(String.format("Please, provide all 5 params."));
                 }
 
                 String rssFeedUrl = args[0];
@@ -17,10 +17,6 @@ public class MainRun {
                 String oathConsumerSecret = args[2];
                 String oathAccessToken = args[3];
                 String oathAccessTokenSecret = args[4];
-
-                if (oathAccessToken == null) {
-                        throw new RuntimeException(String.format("oathConsumerKey arg cannot be null"));
-                }
 
                 FeedMessage message = new FeedParser(rssFeedUrl).readFeed().getEntries()
                                 .stream().findFirst().get();
