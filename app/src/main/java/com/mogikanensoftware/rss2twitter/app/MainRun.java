@@ -8,8 +8,8 @@ public class MainRun {
 
         public static void main(String[] args) throws Exception {
 
-                if (args.length < 4) {
-                        throw new RuntimeException(String.format("Please, provdie all 4 params"));
+                if (args.length < 5) {
+                        throw new RuntimeException(String.format("Please, provdie all 5 params"));
                 }
 
                 String rssFeedUrl = args[0];
