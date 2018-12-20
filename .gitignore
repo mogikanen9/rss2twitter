@@ -28,3 +28,4 @@ sonar.bat
 .project
 .settings
 .vscode
+core/target
