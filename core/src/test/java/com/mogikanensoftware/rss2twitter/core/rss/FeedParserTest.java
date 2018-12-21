@@ -1,4 +1,4 @@
-package com.mogikanensoftware.rss2twitter.service.rss;
+package com.mogikanensoftware.rss2twitter.core.rss;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;

@@ -12,4 +12,4 @@ addons:
     organization: "mogikanen9-github"
 
 script:
-  - mvn -f service/pom.xml test -B sonar:sonar -Dsonar.login=${SONAR_TOKEN}
+  - mvn -f service/pom.xml test -B sonar:sonar -Dsonar.projectKey=rss2twitter -Dsonar.login=${SONAR_TOKEN}

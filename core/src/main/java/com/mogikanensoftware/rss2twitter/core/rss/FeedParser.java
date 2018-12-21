@@ -1,4 +1,4 @@
-package com.mogikanensoftware.rss2twitter.service.rss;
+package com.mogikanensoftware.rss2twitter.core.rss;
 
 import java.io.IOException;
 import java.io.InputStream;
