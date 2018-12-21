@@ -14,5 +14,6 @@
 	<properties>
 		<sonar.projectKey>rss2twitter</sonar.projectKey>
 		<sonar.projectName>rss2twitter</sonar.projectName>
+		<sonar.jacoco.reportPaths>${project.basedir}/target/jacoco.exec</sonar.jacoco.reportPaths>
 	</properties>
 </project>
